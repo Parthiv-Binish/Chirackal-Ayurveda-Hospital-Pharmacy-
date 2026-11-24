@@ -20,9 +20,11 @@ The project must be driven by verified business workflows. It is not a commitmen
 | Establishment scope | Hospital + pharmacy | Confirmed |
 | Current operations | Paper-based | Confirmed at high level |
 | Desired outcome | Complete digital transformation | Confirmed |
-| Inpatient capacity | Unknown | Site validation required |
-| Treatment model | Consultations and/or therapies | Site validation required |
-| Pharmacy operating model | Relationship between hospital dispensing and retail pharmacy unknown | Site validation required |
+| Inpatient facility | No inpatient facility | Confirmed |
+| Clinical service model | Consultations + Ayurveda treatments/therapies | Confirmed at high level |
+| Pharmacy operating model | Hospital-linked dispensing + independent retail sales | Confirmed at high level |
+| Day-care/observation arrangements | Unknown | Site validation required |
+| Whether hospital and retail pharmacy share entity, licence, counter and stock | Unknown | Site validation required |
 | Staff, patient volumes, branches, infrastructure | Unknown | Site validation required |
 
 ## Study principles
@@ -34,6 +36,7 @@ The project must be driven by verified business workflows. It is not a commitmen
 5. Prioritize reliable core workflows over unnecessary application count.
 6. Plan for connectivity interruptions and practical staff adoption.
 7. Treat clinical decisions and treatment protocols as practitioner-owned; software supports documentation and workflow, not diagnosis.
+8. Do not assume inpatient, bed, ward or discharge workflows: the client has confirmed there is no inpatient facility.
 
 ## Proposed documentation
 
@@ -50,11 +53,11 @@ The project must be driven by verified business workflows. It is not a commitmen
 
 ## Important status note
 
-This is a preliminary study based on the project discovery conversation and limited public research leads. It is **not** a verified audit, legal opinion, clinical assessment, final SRS, or approved implementation specification. Public directory listings and service descriptions must be checked directly with the client before they are treated as facts.
+This is a preliminary study based on project discovery answers and limited public research leads. It is **not** a verified operational audit, legal opinion, clinical assessment, final SRS, or approved implementation specification. Public directory listings and service descriptions must be checked directly with the client before they are treated as facts.
 
 ## Next milestone
 
-Conduct a structured site visit with management, doctor/practitioner, reception and pharmacy representatives. Validate the checklist in [10 — Site discovery checklist](docs/10-site-discovery-checklist.md), collect blank/sample operational forms with no patient identifiers, and update the study before freezing requirements.
+Conduct a structured site visit with management, doctor/practitioner, reception, therapy staff and pharmacy representatives. Validate the checklist in [10 — Site discovery checklist](docs/10-site-discovery-checklist.md), collect blank/sample operational forms with no patient identifiers, and update the study before freezing requirements.
 
 ## Repository structure
 
